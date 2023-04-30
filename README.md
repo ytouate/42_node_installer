@@ -30,6 +30,8 @@ To install NVM and set up a default Node.js version, follow these steps:
 
 5. Wait for the script to finish running. It may take a few minutes to download and install the selected Node.js version.
 
+6. run <code>source ~/.nvm/nvm.sh</code>
+
 6. Once the script has finished running, you should be able to use the `node` and `npm` commands in your terminal.
 
 ## Usage
