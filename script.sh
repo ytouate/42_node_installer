@@ -6,8 +6,6 @@ export NVM_DIR="$HOME/.nvm"
 chmod +x install.sh
 ./install.sh
 
-# install node lts (long term support)
-
 arg=$1
 echo $1;
 source ~/.nvm/nvm.sh
@@ -18,9 +16,6 @@ then
 else
     nvm use node
 fi
-
-# to install the latest version of node 
-# uncomment the lines below and comment the ones above
 
 if test -f ~/.zshrc
 then
