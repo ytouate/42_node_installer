@@ -14,7 +14,12 @@ then
     nvm install --lts
     nvm use --lts
 else
+    nvm install node
     nvm use node
+fi
+
+if [ -z "$(grep -w 'source ~/.nvm/nvm.sh' ~/.bash_profile)" ]; then
+  echo 'source ~/.nvm/nvm.sh' >> ~/.bash_profile
 fi
 
 if test -f ~/.zshrc
